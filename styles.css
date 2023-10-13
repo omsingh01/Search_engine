@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, #202020, #141414);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    color: #64d2ff;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+p {
+    color: #a0a0a0;
+}
+
+input {
+    padding: 15px;
+    width: 70%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #64d2ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4ab3ff;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 10px #64d2ff;
+}
+
+.container:hover {
+    background: linear-gradient(45deg, #1a1a1a, #292929);
+    transition: background 0.5s ease;
+}
+
+/* Adding a subtle glow effect to the button on focus */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 10px #64d2ff;
+}
+
+input:hover {
+    border: 2px solid #64d2ff;
+    transition: border 0.3s ease;
+}
